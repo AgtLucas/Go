@@ -1,7 +1,10 @@
 package main
 
-import "fmt"
+import (
+  "fmt"
+  "pack/run"
+)
 
 func main() {
-  fmt.Printf("Hello, Go!\n")
+  fmt.Println(run.Double("Hello, Go!\n"));
 }
